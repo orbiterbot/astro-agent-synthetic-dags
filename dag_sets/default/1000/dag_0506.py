@@ -1,7 +1,7 @@
 from datetime import datetime, timedelta
 
 from airflow.models import DAG
-from airflow.operators.empty import EmptyOperator
+from airflow.providers.standard.operators.empty import EmptyOperator
 
 with DAG(
     dag_id="dag_0506",
