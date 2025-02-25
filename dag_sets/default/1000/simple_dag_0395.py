@@ -6,7 +6,7 @@ import time
 from datetime import datetime, timedelta
 
 from airflow import DAG
-from airflow.operators.empty import EmptyOperator
+from airflow.providers.standard.operators.empty import EmptyOperator
 
 # Simulate parse delay
 time.sleep(4.059396972875274e-05)
