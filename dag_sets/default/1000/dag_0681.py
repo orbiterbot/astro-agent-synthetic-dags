@@ -6,7 +6,7 @@ from airflow.providers.standard.operators.empty import EmptyOperator
 with DAG(
     dag_id="dag_0681",
     start_date=datetime(2021, 1, 1),
-    schedule_interval=None,
+    schedule=None,
     catchup=False,
 ) as dag:
 
