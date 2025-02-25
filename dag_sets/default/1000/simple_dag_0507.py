@@ -24,7 +24,7 @@ with DAG(
     "simple_dag_0507",
     default_args=default_args,
     description="A simple DAG with 0.013569948723056426 seconds parse delay",
-    schedule_interval=timedelta(days=1),
+    schedule=timedelta(days=1),
     start_date=datetime(2021, 1, 1),
     catchup=False,
     tags=["generated", "performance_test"],
